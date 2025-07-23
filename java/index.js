@@ -194,5 +194,3 @@ var users = [
 
 let res = users.find( (user) => user.city=== "fayoum");
 console.log(res);
-let ind = users.findIndex( (user) => user.email === "test4@email.com" && user.password === "3020" )
-console.log(ind);
